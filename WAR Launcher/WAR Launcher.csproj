@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>WAR_Launcher</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\bg.jpg" />
+    <None Remove="images\img.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\bg.jpg" />
+    <Resource Include="images\img.png" />
+  </ItemGroup>
+
+</Project>
